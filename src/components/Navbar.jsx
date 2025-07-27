@@ -11,7 +11,9 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-8 bg-cream text-neutral-800 z-30">
-      <div className="text-4xl font-bold">KW</div>
+      <div className="text-4xl font-bold">
+        <a href="/">KW</a>
+      </div>
 
       {/* Menu */}
       <ul className="hidden md:flex">
@@ -48,7 +50,9 @@ const Navbar = () => {
           }`}
         >
           <div className="flex justify-between items-center w-full">
-            <div className="text-4xl font-bold">KW</div>
+            <div className="text-4xl font-bold">
+              <a href="/">KW</a>
+            </div>
             <div className="cursor-pointer" onClick={handleNav}>
               <IoClose size={50} />
             </div>
