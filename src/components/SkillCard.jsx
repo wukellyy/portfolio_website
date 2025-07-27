@@ -4,7 +4,7 @@ const SkillCard = (props) => {
   const { title, skills } = props;
 
   return (
-    <div className="w-[500px] lg:w-[600px] h-auto p-8 flex flex-col items-center bg-cream border-2 border-neutral-800 rounded-2xl m-2">
+    <div className="w-[500px] lg:w-[600px] h-auto p-8 flex flex-col items-center bg-cream border-2 border-neutral-800 rounded-2xl m-2 shadow-lg">
       <h2 className="text-neutral-600 font-bold text-2xl lg:text-4xl mb-8 text-center">
         {title}
       </h2>

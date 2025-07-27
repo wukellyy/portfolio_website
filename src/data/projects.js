@@ -15,7 +15,6 @@ export const PROJECTS = [
       "Tailwind",
       "MongoDB",
       "CI/CD",
-      "Github Actions",
       "RESTful APIs",
       "Agile",
       "DevOps",
