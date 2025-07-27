@@ -9,8 +9,8 @@ const SkillCard = (props) => {
         {title}
       </h2>
       <div className="grid grid-cols-2 gap-x-20 gap-y-8 text-neutral-800">
-        {skills.map(({ name, level, Icon }, index) => (
-          <div key={index} className="flex gap-4  items-center">
+        {skills.map(({ name, level, Icon }, idx) => (
+          <div key={idx} className="flex gap-4  items-center">
             <Icon className="text-[40px] md:text-[45px] lg:text-[55px]" />
             <div className="flex flex-col">
               <p className="font-semibold lg:text-2xl">{name}</p>

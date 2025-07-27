@@ -2,6 +2,7 @@ import React from "react";
 import { HiDownload } from "react-icons/hi";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
+import ProfilePic from "../assets/profile_pic.jpeg";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       <div className="h-full px-8 flex flex-col md:flex-row-reverse justify-center items-center gap-6 md:gap-15 lg:gap-20">
         <div>
           <img
-            src="src/assets/profile_pic.jpeg"
+            src={ProfilePic}
             alt="Profile Picture"
             className="w-70 h-70 md:w-80 md:h-80 lg:w-100 lg:h-100 rounded-full object-cover"
           />
@@ -19,7 +20,9 @@ const Home = () => {
             <div className="text-neutral-600 font-semibold text-lg lg:text-2xl">
               Hello, I'm
             </div>
-            <div className="text-neutral-800 font-bold text-4xl lg:text-5xl">Kelly Wu</div>
+            <div className="text-neutral-800 font-bold text-4xl lg:text-5xl">
+              Kelly Wu
+            </div>
             <div className="text-neutral-600 font-bold text-2xl lg:text-4xl">
               Full-Stack Developer
             </div>
@@ -36,13 +39,21 @@ const Home = () => {
             </button>
           </div>
           <div className="flex gap-4">
-            <a href="https://www.linkedin.com/in/wukellyy/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/wukellyy/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin
                 size={45}
                 className="hover:scale-105 ease-in duration-300"
               />
             </a>
-            <a href="http://github.com/wukellyy" target="_blank">
+            <a
+              href="http://github.com/wukellyy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaSquareGithub
                 size={45}
                 className="hover:scale-105 ease-in duration-300"
