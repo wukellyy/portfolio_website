@@ -3,6 +3,7 @@ import Statify from "../assets/statify.png";
 import MonthlySpotifyWrapped from "../assets/monthly_spotify_wrapped.png";
 import LayoffsAnalysis from "../assets/layoffs_analysis.png";
 import CityJailDatabase from "../assets/city_jail.jpg";
+import WordStrike from "../assets/word_strike.png";
 
 export const PROJECTS = [
   {
@@ -63,5 +64,18 @@ export const PROJECTS = [
     tags: ["MySQL", "Flask", "HTML/CSS", "Bootstrap", "APIs", "Authentication"],
     link: "https://github.com/xhanghe/CSUY3083Project",
     image: CityJailDatabase,
+  },
+  {
+    name: "Word Strike",
+    role: "Game Developer",
+    tags: [
+      "Javascript",
+      "Game Development",
+      "UI/UX",
+      "APIs",
+      "Creative Coding",
+    ],
+    link: "https://github.com/wukellyy/CreativeCodingFinal_Spring25_KellyWu",
+    image: WordStrike,
   },
 ];

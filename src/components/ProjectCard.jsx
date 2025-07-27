@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <a href={link} target="_blank" rel="noopener noreferrer" className="block">
-      <div className="w-[500px] lg:w-[600px] h-auto p-4 flex flex-col bg-cream border-2 border-neutral-800 rounded-2xl m-2 gap-4 hover:scale-102 ease-in duration-200">
+      <div className="w-[500px] xl:w-[450px] 2xl:w-[425px] h-auto p-4 flex flex-col bg-cream border-2 border-neutral-800 rounded-2xl m-2 gap-4 hover:scale-102 ease-in duration-200 shadow-lg">
         <div>
           <img
             src={image}
