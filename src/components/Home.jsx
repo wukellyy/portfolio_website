@@ -26,7 +26,7 @@ const Home = () => {
           </div>
           <div className="flex gap-4">
             <button className="bg-cream border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300">
-              <div className="flex justify-center items-center gap-1">
+              <div className="flex justify-center items-center gap-1 text-neutral-800">
                 <HiDownload size={20} />
                 <p className="font-semibold">Resume</p>
               </div>
