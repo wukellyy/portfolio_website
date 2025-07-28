@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-12 bg-cream text-neutral-800 z-30">
+    <div className="fixed w-full h-[12vh] flex justify-between items-center px-8 md:px-12 bg-cream text-neutral-800 z-30">
       <div className="text-4xl font-bold">
         <a href="/">KW</a>
       </div>
