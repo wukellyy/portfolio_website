@@ -5,7 +5,7 @@ const SkillCard = (props) => {
 
   return (
     <div className="w-[300px] sm:w-[400px] md:w-[500px] lg:w-[600px] h-auto p-8 flex flex-col items-center bg-cream border-2 border-neutral-800 rounded-2xl m-2 shadow-lg">
-      <h2 className="text-neutral-600 font-bold text-xl lg:text-3xl mb-8 ">
+      <h2 className="text-neutral-600 font-bold text-xl lg:text-3xl mb-8">
         {title}
       </h2>
       <div className="grid sm:grid-cols-2 text-neutral-800 gap-4 sm:gap-6 md:gap-x-14 md:gap-y-8">
