@@ -8,6 +8,12 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav);
+
+    if (!nav) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
   };
 
   return (
@@ -17,7 +23,7 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden sm:flex">
         <li className="px-4 cursor-pointer text-lg hover:font-medium">
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -46,7 +52,7 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div className="cursor-pointer md:hidden" onClick={handleNav}>
+      <div className="cursor-pointer sm:hidden" onClick={handleNav}>
         <FaBars size={32} />
       </div>
 
