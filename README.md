@@ -1,12 +1,33 @@
-# React + Vite
+# Kelly Wu - Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Description  
+A responsive personal portfolio website built with React and Tailwind CSS. Showcases selected projects, a downloadable resume, and a contact section. Designed to reflect my personality and technical experience as a recent CS graduate from NYU Tandon.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo  
+[wukellyy.github.io](https://wukellyy.github.io/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Built With  
+- React  
+- Vite  
+- Tailwind CSS  
+- React Scroll  
+- React Icons
+- Figma for visual guidance
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
+### Prerequisites
+- Node.js
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+```
+git clone https://github.com/wukellyy/portfolio_website.git
+cd portfolio_website
+npm install
+npm run dev
+```
+
+
+## 🙋‍♀️ Author
+Kelly Wu\
+[LinkedIn](https://www.linkedin.com/in/wukellyy/) **·** [GitHub](https://github.com/wukellyy)
