@@ -80,48 +80,43 @@ const Navbar = () => {
           </div>
 
           <ul className="flex flex-col py-8">
-            <li className="py-4 cursor-pointer text-2xl hover:font-medium">
-              <Link onClick={handleNav} to="home" smooth={true} duration={500}>
+            <Link onClick={handleNav} to="home" smooth={true} duration={500}>
+              <li className="py-4 cursor-pointer text-2xl hover:font-medium">
                 Home
-              </Link>
-            </li>
-            <li className="py-4 cursor-pointer text-2xl hover:font-medium">
-              <Link onClick={handleNav} to="about" smooth={true} duration={500}>
+              </li>
+            </Link>
+            <Link onClick={handleNav} to="about" smooth={true} duration={500}>
+              <li className="py-4 cursor-pointer text-2xl hover:font-medium">
                 About
-              </Link>
-            </li>
-            <li className="py-4 cursor-pointer text-2xl hover:font-medium">
-              <Link
-                onClick={handleNav}
-                to="skills"
-                smooth={true}
-                duration={500}
-              >
+              </li>
+            </Link>
+            <Link onClick={handleNav} to="skills" smooth={true} duration={500}>
+              <li className="py-4 cursor-pointer text-2xl hover:font-medium">
                 Skills
-              </Link>
-            </li>
-            <li className="py-4 cursor-pointer text-2xl hover:font-medium">
-              <Link
-                onClick={handleNav}
-                to="projects"
-                offset={-100}
-                smooth={true}
-                duration={500}
-              >
+              </li>
+            </Link>
+            <Link
+              onClick={handleNav}
+              to="projects"
+              offset={-100}
+              smooth={true}
+              duration={500}
+            >
+              <li className="py-4 cursor-pointer text-2xl hover:font-medium">
                 Projects
-              </Link>
-            </li>
-            <li className="py-4 cursor-pointer text-2xl hover:font-medium">
-              <Link
-                onClick={handleNav}
-                to="contact"
-                offset={100}
-                smooth={true}
-                duration={500}
-              >
+              </li>
+            </Link>
+            <Link
+              onClick={handleNav}
+              to="contact"
+              offset={100}
+              smooth={true}
+              duration={500}
+            >
+              <li className="py-4 cursor-pointer text-2xl hover:font-medium">
                 Contact
-              </Link>
-            </li>
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
