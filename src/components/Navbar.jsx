@@ -24,31 +24,31 @@ const Navbar = () => {
 
       {/* Menu */}
       <ul className="hidden sm:flex">
-        <li className="px-4 cursor-pointer text-lg hover:font-medium">
-          <Link to="home" smooth={true} duration={500}>
+        <Link to="home" smooth={true} duration={500}>
+          <li className="px-4 cursor-pointer text-lg hover:font-medium">
             Home
-          </Link>
-        </li>
-        <li className="px-4 cursor-pointer text-lg hover:font-medium">
-          <Link to="about" smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to="about" smooth={true} duration={500}>
+          <li className="px-4 cursor-pointer text-lg hover:font-medium">
             About
-          </Link>
-        </li>
-        <li className="px-4 cursor-pointer text-lg hover:font-medium">
-          <Link to="skills" smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to="skills" smooth={true} duration={500}>
+          <li className="px-4 cursor-pointer text-lg hover:font-medium">
             Skills
-          </Link>
-        </li>
-        <li className="px-4 cursor-pointer text-lg hover:font-medium">
-          <Link to="projects" offset={-100} smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to="projects" offset={-100} smooth={true} duration={500}>
+          <li className="px-4 cursor-pointer text-lg hover:font-medium">
             Projects
-          </Link>
-        </li>
-        <li className="px-4 cursor-pointer text-lg hover:font-medium">
-          <Link to="contact" offset={100} smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to="contact" offset={100} smooth={true} duration={500}>
+          <li className="px-4 cursor-pointer text-lg hover:font-medium">
             Contact
-          </Link>
-        </li>
+          </li>
+        </Link>
       </ul>
 
       {/* Hamburger */}

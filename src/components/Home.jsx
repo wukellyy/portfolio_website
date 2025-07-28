@@ -54,13 +54,11 @@ const Home = () => {
                 <p className="font-semibold">Resume</p>
               </div>
             </button>
-            <button className="text-cream bg-neutral-800 border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300 hover:shadow-md cursor-pointer">
-              <p className="font-semibold">
-                <Link to="contact" offset={100} smooth={true} duration={500}>
-                  Contact Me
-                </Link>
-              </p>
-            </button>
+            <Link to="contact" offset={100} smooth={true} duration={500}>
+              <button className="text-cream bg-neutral-800 border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300 hover:shadow-md cursor-pointer">
+                <p className="font-semibold">Contact Me</p>
+              </button>
+            </Link>
           </div>
 
           {/* Social Icons */}
