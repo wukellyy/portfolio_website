@@ -6,6 +6,14 @@ import ProfilePic from "../assets/profile_pic.jpeg";
 import { Link } from "react-scroll";
 
 const Home = () => {
+  const handleResumeClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1xx9gSQWPXPQGZdcrYu5_zESNhJtX5ohd/preview",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <div
       name="home"
@@ -37,13 +45,16 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="flex gap-4">
-            <button className="bg-cream border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300 hover:shadow-md">
+            <button
+              className="bg-cream border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300 hover:shadow-md cursor-pointer"
+              onClick={handleResumeClick}
+            >
               <div className="flex justify-center items-center gap-1 text-neutral-800">
                 <HiDownload size={20} />
                 <p className="font-semibold">Resume</p>
               </div>
             </button>
-            <button className="text-cream bg-neutral-800 border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300 hover:shadow-md">
+            <button className="text-cream bg-neutral-800 border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300 hover:shadow-md cursor-pointer">
               <p className="font-semibold">
                 <Link to="contact" offset={100} smooth={true} duration={500}>
                   Contact Me
