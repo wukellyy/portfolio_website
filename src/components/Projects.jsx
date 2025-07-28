@@ -5,7 +5,7 @@ import { PROJECTS } from "../data/projects";
 
 const Projects = () => {
   return (
-    <div className="w-full bg-cream">
+    <div name="projects" className="w-full bg-cream">
       <div className="w-[500px] xl:w-full mx-auto h-full flex flex-col justify-center items-center">
         <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-neutral-800">
           Projects

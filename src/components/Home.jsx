@@ -3,10 +3,11 @@ import { HiDownload } from "react-icons/hi";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import ProfilePic from "../assets/profile_pic.jpeg";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen bg-cream">
+    <div name="home" className="w-full h-screen bg-cream">
       <div className="h-full px-8 flex flex-col md:flex-row-reverse justify-center items-center gap-6 md:gap-15 lg:gap-20">
         <div>
           <img
@@ -35,7 +36,11 @@ const Home = () => {
               </div>
             </button>
             <button className="text-cream bg-neutral-800 border-2 border-neutral-800 rounded-4xl px-6 py-2 hover:scale-105 ease-in duration-300">
-              <p className="font-semibold">Contact Me</p>
+              <p className="font-semibold">
+                <Link to="contact" offset={100} smooth={true} duration={500}>
+                  Contact Me
+                </Link>
+              </p>
             </button>
           </div>
           <div className="flex gap-4">

@@ -6,7 +6,7 @@ import { BACKEND_SKILLS } from "../data/skills.js";
 
 const Skills = () => {
   return (
-    <div className="w-full h-screen bg-cream">
+    <div name="skills" className="w-full h-screen bg-cream">
       <div className="w-[500px] mx-auto h-full flex flex-col justify-center items-center">
         <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-neutral-800">
           Skills
